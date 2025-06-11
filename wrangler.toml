@@ -2,4 +2,9 @@ name = "vgridjs"
 compatibility_date = "2024-03-20"
 
 [site]
-bucket = "./website/build" 
+bucket = "./website/build"
+
+[env.production]
+routes = [
+  { pattern = "gishub.vn/vgridjs", zone_name = "gishub.vn" }
+] 
