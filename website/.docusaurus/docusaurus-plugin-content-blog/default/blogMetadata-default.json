@@ -1,5 +1,5 @@
 {
-  "blogBasePath": "/vgridjs/blog",
+  "blogBasePath": "/blog",
   "blogTitle": "Blog",
-  "authorsListPath": "/vgridjs/blog/authors"
+  "authorsListPath": "/blog/authors"
 }

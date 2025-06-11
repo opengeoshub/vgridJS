@@ -1,65 +1,65 @@
 {
   "docusaurus-plugin-content-docs": {
     "default": {
-      "path": "/vgridjs/docs",
+      "path": "/docs",
       "versions": [
         {
           "name": "current",
           "label": "Next",
           "isLast": true,
-          "path": "/vgridjs/docs",
+          "path": "/docs",
           "mainDocId": "README",
           "docs": [
             {
               "id": "api-reference/hierarchy",
-              "path": "/vgridjs/docs/api-reference/hierarchy",
+              "path": "/docs/api-reference/hierarchy",
               "sidebar": "sidebar"
             },
             {
               "id": "api-reference/indexing",
-              "path": "/vgridjs/docs/api-reference/indexing",
+              "path": "/docs/api-reference/indexing",
               "sidebar": "sidebar"
             },
             {
               "id": "api-reference/miscellaneous",
-              "path": "/vgridjs/docs/api-reference/miscellaneous"
+              "path": "/docs/api-reference/miscellaneous"
             },
             {
               "id": "api-reference/README",
-              "path": "/vgridjs/docs/api-reference/",
+              "path": "/docs/api-reference/",
               "sidebar": "sidebar"
             },
             {
               "id": "motivation",
-              "path": "/vgridjs/docs/motivation",
+              "path": "/docs/motivation",
               "sidebar": "sidebar"
             },
             {
               "id": "README",
-              "path": "/vgridjs/docs/",
+              "path": "/docs/",
               "sidebar": "sidebar"
             },
             {
               "id": "technical/cell-area",
-              "path": "/vgridjs/docs/technical/cell-area"
+              "path": "/docs/technical/cell-area"
             },
             {
               "id": "technical/dggs",
-              "path": "/vgridjs/docs/technical/dggs",
+              "path": "/docs/technical/dggs",
               "sidebar": "sidebar"
             },
             {
               "id": "technical/index-encoding",
-              "path": "/vgridjs/docs/technical/index-encoding"
+              "path": "/docs/technical/index-encoding"
             },
             {
               "id": "technical/platonic-solids",
-              "path": "/vgridjs/docs/technical/platonic-solids",
+              "path": "/docs/technical/platonic-solids",
               "sidebar": "sidebar"
             },
             {
               "id": "technical/the-pentagon-that-could",
-              "path": "/vgridjs/docs/technical/the-pentagon-that-could",
+              "path": "/docs/technical/the-pentagon-that-could",
               "sidebar": "sidebar"
             }
           ],
@@ -67,7 +67,7 @@
           "sidebars": {
             "sidebar": {
               "link": {
-                "path": "/vgridjs/docs/",
+                "path": "/docs/",
                 "label": "README"
               }
             }

@@ -1,4 +1,5 @@
 export default {
+  "0058b4c6": [() => import(/* webpackChunkName: "0058b4c6" */ "@generated/docusaurus-plugin-content-docs/default/p/docs-175.json"), "@generated/docusaurus-plugin-content-docs/default/p/docs-175.json", require.resolveWeak("@generated/docusaurus-plugin-content-docs/default/p/docs-175.json")],
   "17896441": [() => import(/* webpackChunkName: "17896441" */ "@theme/DocItem"), "@theme/DocItem", require.resolveWeak("@theme/DocItem")],
   "396a3a9c": [() => import(/* webpackChunkName: "396a3a9c" */ "@site/../docs/technical/cell-area.md"), "@site/../docs/technical/cell-area.md", require.resolveWeak("@site/../docs/technical/cell-area.md")],
   "5a4b33c6": [() => import(/* webpackChunkName: "5a4b33c6" */ "@site/../docs/technical/dggs.md"), "@site/../docs/technical/dggs.md", require.resolveWeak("@site/../docs/technical/dggs.md")],
@@ -17,5 +18,4 @@ export default {
   "aba21aa0": [() => import(/* webpackChunkName: "aba21aa0" */ "@generated/docusaurus-plugin-content-docs/default/__plugin.json"), "@generated/docusaurus-plugin-content-docs/default/__plugin.json", require.resolveWeak("@generated/docusaurus-plugin-content-docs/default/__plugin.json")],
   "d494f6ef": [() => import(/* webpackChunkName: "d494f6ef" */ "@site/../docs/api-reference/miscellaneous.md"), "@site/../docs/api-reference/miscellaneous.md", require.resolveWeak("@site/../docs/api-reference/miscellaneous.md")],
   "dcb4e770": [() => import(/* webpackChunkName: "dcb4e770" */ "@site/../docs/technical/the-pentagon-that-could.md"), "@site/../docs/technical/the-pentagon-that-could.md", require.resolveWeak("@site/../docs/technical/the-pentagon-that-could.md")],
-  "e42308c5": [() => import(/* webpackChunkName: "e42308c5" */ "@site/../docs/api-reference/indexing.md"), "@site/../docs/api-reference/indexing.md", require.resolveWeak("@site/../docs/api-reference/indexing.md")],
-  "e4742e73": [() => import(/* webpackChunkName: "e4742e73" */ "@generated/docusaurus-plugin-content-docs/default/p/vgridjs-docs-3fe.json"), "@generated/docusaurus-plugin-content-docs/default/p/vgridjs-docs-3fe.json", require.resolveWeak("@generated/docusaurus-plugin-content-docs/default/p/vgridjs-docs-3fe.json")],};
+  "e42308c5": [() => import(/* webpackChunkName: "e42308c5" */ "@site/../docs/api-reference/indexing.md"), "@site/../docs/api-reference/indexing.md", require.resolveWeak("@site/../docs/api-reference/indexing.md")],};

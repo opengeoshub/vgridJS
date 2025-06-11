@@ -6,8 +6,8 @@
 export default {
   "title": "VgridJS",
   "tagline": "Vgrid DGGS JS",
-  "url": "https://vgrid.vn",
-  "baseUrl": "/vgridjs/",
+  "url": "https:/gishub.vn",
+  "baseUrl": "/",
   "onBrokenLinks": "warn",
   "onBrokenMarkdownLinks": "warn",
   "favicon": "/images/vgrid.svg",
