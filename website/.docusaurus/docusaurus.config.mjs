@@ -4,84 +4,51 @@
  * Modify the docusaurus.config.js file at your site's root instead.
  */
 export default {
-  "title": "VGrid DGGS",
-  "tagline": "All-in-one DGGS library",
-  "favicon": "img/favicon.ico",
-  "future": {
-    "v4": {
-      "removeLegacyPostBuildHeadAttribute": true,
-      "useCssCascadeLayers": true
-    },
-    "experimental_faster": {
-      "swcJsLoader": false,
-      "swcJsMinimizer": false,
-      "swcHtmlMinimizer": false,
-      "lightningCssMinimizer": false,
-      "mdxCrossCompilerCache": false,
-      "rspackBundler": false,
-      "rspackPersistentCache": false,
-      "ssgWorkerThreads": false
-    },
-    "experimental_storage": {
-      "type": "localStorage",
-      "namespace": false
-    },
-    "experimental_router": "browser"
-  },
+  "title": "VgridJS",
+  "tagline": "Vgrid DGGS JS",
   "url": "https://vgrid.vn",
   "baseUrl": "/",
-  "organizationName": "opengeoshub",
-  "projectName": "vgriddggs",
   "onBrokenLinks": "throw",
   "onBrokenMarkdownLinks": "warn",
-  "i18n": {
-    "defaultLocale": "en",
-    "locales": [
-      "en"
-    ],
-    "path": "i18n",
-    "localeConfigs": {}
-  },
+  "favicon": "/images/vgrid.svg",
+  "organizationName": "opengeoshub",
+  "projectName": "vgridjs",
+  "trailingSlash": false,
   "presets": [
     [
       "classic",
       {
         "docs": {
-          "sidebarPath": "./sidebars.ts",
-          "editUrl": "https://github.com/your-github-username/vgriddggs/tree/main/docs/"
-        },
-        "blog": {
-          "showReadingTime": true,
-          "editUrl": "https://github.com/your-github-username/vgriddggs/tree/main/docs/blog/"
+          "path": "../docs",
+          "sidebarPath": "D:\\Github\\vgridjs\\website\\src\\docs-sidebar.js",
+          "editUrl": "https://github.com/opengeoshub/vgridjs/tree/master/website"
         },
         "theme": {
-          "customCss": "./src/css/custom.css"
+          "customCss": [
+            "D:\\Github\\vgridjs\\website\\src\\styles.css",
+            "D:\\Github\\vgridjs\\website\\node_modules\\maplibre-gl\\dist\\maplibre-gl.css"
+          ]
         }
       }
     ]
   ],
+  "plugins": [],
   "themeConfig": {
-    "image": "img/docusaurus-social-card.jpg",
     "navbar": {
-      "title": "VGrid DGGS",
+      "title": "VgridJS",
       "logo": {
-        "alt": "VGrid DGGS Logo",
-        "src": "img/logo.svg"
+        "alt": "VgridJS Logo",
+        "src": "images/vgrid.svg",
+        "srcDark": "images/vgrid.svg"
       },
       "items": [
         {
-          "type": "docSidebar",
-          "sidebarId": "tutorialSidebar",
+          "to": "/docs",
           "position": "left",
-          "label": "Documentation"
+          "label": "About"
         },
         {
-          "to": "/blog",
-          "label": "Blog",
-          "position": "left"
-        },
-        {
-          "href": "https://github.com/your-github-username/vgriddggs",
+          "href": "https://github.com/opengeoshub/vgridjs",
           "label": "GitHub",
           "position": "right"
         }
@@ -92,152 +59,40 @@ export default {
       "style": "dark",
       "links": [
         {
-          "title": "Docs",
+          "title": "Resources",
           "items": [
             {
-              "label": "Getting Started",
-              "to": "/docs/intro"
+              "label": "API Reference",
+              "to": "/docs/api-reference/"
             }
           ]
         },
         {
-          "title": "Community",
+          "title": "More",
           "items": [
             {
               "label": "GitHub",
-              "href": "https://github.com/your-github-username/vgriddggs"
+              "href": "https://github.com/opengeoshub/vgridjs"
             }
           ]
         }
       ],
-      "copyright": "Copyright © 2025 VGrid DGGS. Built with Docusaurus."
+      "copyright": "Copyright © 2025 Vgrid contributors"
     },
     "prism": {
       "theme": {
         "plain": {
-          "color": "#393A34",
-          "backgroundColor": "#f6f8fa"
+          "color": "#403f53",
+          "backgroundColor": "#FBFBFB"
         },
         "styles": [
           {
             "types": [
-              "comment",
-              "prolog",
-              "doctype",
-              "cdata"
+              "changed"
             ],
             "style": {
-              "color": "#999988",
+              "color": "rgb(162, 191, 252)",
               "fontStyle": "italic"
-            }
-          },
-          {
-            "types": [
-              "namespace"
-            ],
-            "style": {
-              "opacity": 0.7
-            }
-          },
-          {
-            "types": [
-              "string",
-              "attr-value"
-            ],
-            "style": {
-              "color": "#e3116c"
-            }
-          },
-          {
-            "types": [
-              "punctuation",
-              "operator"
-            ],
-            "style": {
-              "color": "#393A34"
-            }
-          },
-          {
-            "types": [
-              "entity",
-              "url",
-              "symbol",
-              "number",
-              "boolean",
-              "variable",
-              "constant",
-              "property",
-              "regex",
-              "inserted"
-            ],
-            "style": {
-              "color": "#36acaa"
-            }
-          },
-          {
-            "types": [
-              "atrule",
-              "keyword",
-              "attr-name",
-              "selector"
-            ],
-            "style": {
-              "color": "#00a4db"
-            }
-          },
-          {
-            "types": [
-              "function",
-              "deleted",
-              "tag"
-            ],
-            "style": {
-              "color": "#d73a49"
-            }
-          },
-          {
-            "types": [
-              "function-variable"
-            ],
-            "style": {
-              "color": "#6f42c1"
-            }
-          },
-          {
-            "types": [
-              "tag",
-              "selector",
-              "keyword"
-            ],
-            "style": {
-              "color": "#00009f"
-            }
-          }
-        ]
-      },
-      "darkTheme": {
-        "plain": {
-          "color": "#F8F8F2",
-          "backgroundColor": "#282A36"
-        },
-        "styles": [
-          {
-            "types": [
-              "prolog",
-              "constant",
-              "builtin"
-            ],
-            "style": {
-              "color": "rgb(189, 147, 249)"
-            }
-          },
-          {
-            "types": [
-              "inserted",
-              "function"
-            ],
-            "style": {
-              "color": "rgb(80, 250, 123)"
             }
           },
           {
@@ -245,44 +100,17 @@ export default {
               "deleted"
             ],
             "style": {
-              "color": "rgb(255, 85, 85)"
+              "color": "rgba(239, 83, 80, 0.56)",
+              "fontStyle": "italic"
             }
           },
           {
             "types": [
-              "changed"
+              "inserted",
+              "attr-name"
             ],
             "style": {
-              "color": "rgb(255, 184, 108)"
-            }
-          },
-          {
-            "types": [
-              "punctuation",
-              "symbol"
-            ],
-            "style": {
-              "color": "rgb(248, 248, 242)"
-            }
-          },
-          {
-            "types": [
-              "string",
-              "char",
-              "tag",
-              "selector"
-            ],
-            "style": {
-              "color": "rgb(255, 121, 198)"
-            }
-          },
-          {
-            "types": [
-              "keyword",
-              "variable"
-            ],
-            "style": {
-              "color": "rgb(189, 147, 249)",
+              "color": "rgb(72, 118, 214)",
               "fontStyle": "italic"
             }
           },
@@ -291,15 +119,231 @@ export default {
               "comment"
             ],
             "style": {
-              "color": "rgb(98, 114, 164)"
+              "color": "rgb(152, 159, 177)",
+              "fontStyle": "italic"
             }
           },
           {
             "types": [
+              "string",
+              "builtin",
+              "char",
+              "constant",
+              "url"
+            ],
+            "style": {
+              "color": "rgb(72, 118, 214)"
+            }
+          },
+          {
+            "types": [
+              "variable"
+            ],
+            "style": {
+              "color": "rgb(201, 103, 101)"
+            }
+          },
+          {
+            "types": [
+              "number"
+            ],
+            "style": {
+              "color": "rgb(170, 9, 130)"
+            }
+          },
+          {
+            "types": [
+              "punctuation"
+            ],
+            "style": {
+              "color": "rgb(153, 76, 195)"
+            }
+          },
+          {
+            "types": [
+              "function",
+              "selector",
+              "doctype"
+            ],
+            "style": {
+              "color": "rgb(153, 76, 195)",
+              "fontStyle": "italic"
+            }
+          },
+          {
+            "types": [
+              "class-name"
+            ],
+            "style": {
+              "color": "rgb(17, 17, 17)"
+            }
+          },
+          {
+            "types": [
+              "tag"
+            ],
+            "style": {
+              "color": "rgb(153, 76, 195)"
+            }
+          },
+          {
+            "types": [
+              "operator",
+              "property",
+              "keyword",
+              "namespace"
+            ],
+            "style": {
+              "color": "rgb(12, 150, 155)"
+            }
+          },
+          {
+            "types": [
+              "boolean"
+            ],
+            "style": {
+              "color": "rgb(188, 84, 84)"
+            }
+          }
+        ]
+      },
+      "darkTheme": {
+        "plain": {
+          "color": "#d6deeb",
+          "backgroundColor": "#011627"
+        },
+        "styles": [
+          {
+            "types": [
+              "changed"
+            ],
+            "style": {
+              "color": "rgb(162, 191, 252)",
+              "fontStyle": "italic"
+            }
+          },
+          {
+            "types": [
+              "deleted"
+            ],
+            "style": {
+              "color": "rgba(239, 83, 80, 0.56)",
+              "fontStyle": "italic"
+            }
+          },
+          {
+            "types": [
+              "inserted",
               "attr-name"
             ],
             "style": {
-              "color": "rgb(241, 250, 140)"
+              "color": "rgb(173, 219, 103)",
+              "fontStyle": "italic"
+            }
+          },
+          {
+            "types": [
+              "comment"
+            ],
+            "style": {
+              "color": "rgb(99, 119, 119)",
+              "fontStyle": "italic"
+            }
+          },
+          {
+            "types": [
+              "string",
+              "url"
+            ],
+            "style": {
+              "color": "rgb(173, 219, 103)"
+            }
+          },
+          {
+            "types": [
+              "variable"
+            ],
+            "style": {
+              "color": "rgb(214, 222, 235)"
+            }
+          },
+          {
+            "types": [
+              "number"
+            ],
+            "style": {
+              "color": "rgb(247, 140, 108)"
+            }
+          },
+          {
+            "types": [
+              "builtin",
+              "char",
+              "constant",
+              "function"
+            ],
+            "style": {
+              "color": "rgb(130, 170, 255)"
+            }
+          },
+          {
+            "types": [
+              "punctuation"
+            ],
+            "style": {
+              "color": "rgb(199, 146, 234)"
+            }
+          },
+          {
+            "types": [
+              "selector",
+              "doctype"
+            ],
+            "style": {
+              "color": "rgb(199, 146, 234)",
+              "fontStyle": "italic"
+            }
+          },
+          {
+            "types": [
+              "class-name"
+            ],
+            "style": {
+              "color": "rgb(255, 203, 139)"
+            }
+          },
+          {
+            "types": [
+              "tag",
+              "operator",
+              "keyword"
+            ],
+            "style": {
+              "color": "rgb(127, 219, 202)"
+            }
+          },
+          {
+            "types": [
+              "boolean"
+            ],
+            "style": {
+              "color": "rgb(255, 88, 116)"
+            }
+          },
+          {
+            "types": [
+              "property"
+            ],
+            "style": {
+              "color": "rgb(128, 203, 196)"
+            }
+          },
+          {
+            "types": [
+              "namespace"
+            ],
+            "style": {
+              "color": "rgb(178, 204, 214)"
             }
           }
         ]
@@ -340,13 +384,41 @@ export default {
     }
   },
   "baseUrlIssueBanner": true,
+  "i18n": {
+    "defaultLocale": "en",
+    "path": "i18n",
+    "locales": [
+      "en"
+    ],
+    "localeConfigs": {}
+  },
+  "future": {
+    "v4": {
+      "removeLegacyPostBuildHeadAttribute": false,
+      "useCssCascadeLayers": false
+    },
+    "experimental_faster": {
+      "swcJsLoader": false,
+      "swcJsMinimizer": false,
+      "swcHtmlMinimizer": false,
+      "lightningCssMinimizer": false,
+      "mdxCrossCompilerCache": false,
+      "rspackBundler": false,
+      "rspackPersistentCache": false,
+      "ssgWorkerThreads": false
+    },
+    "experimental_storage": {
+      "type": "localStorage",
+      "namespace": false
+    },
+    "experimental_router": "browser"
+  },
   "onBrokenAnchors": "warn",
   "onDuplicateRoutes": "warn",
   "staticDirectories": [
     "static"
   ],
   "customFields": {},
-  "plugins": [],
   "themes": [],
   "scripts": [],
   "headTags": [],

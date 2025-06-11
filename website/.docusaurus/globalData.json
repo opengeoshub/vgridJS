@@ -8,70 +8,67 @@
           "label": "Next",
           "isLast": true,
           "path": "/docs",
-          "mainDocId": "intro",
+          "mainDocId": "README",
           "docs": [
             {
-              "id": "intro",
-              "path": "/docs/intro",
-              "sidebar": "tutorialSidebar"
+              "id": "api-reference/hierarchy",
+              "path": "/docs/api-reference/hierarchy",
+              "sidebar": "sidebar"
             },
             {
-              "id": "tutorial-basics/congratulations",
-              "path": "/docs/tutorial-basics/congratulations",
-              "sidebar": "tutorialSidebar"
+              "id": "api-reference/indexing",
+              "path": "/docs/api-reference/indexing",
+              "sidebar": "sidebar"
             },
             {
-              "id": "tutorial-basics/create-a-blog-post",
-              "path": "/docs/tutorial-basics/create-a-blog-post",
-              "sidebar": "tutorialSidebar"
+              "id": "api-reference/miscellaneous",
+              "path": "/docs/api-reference/miscellaneous"
             },
             {
-              "id": "tutorial-basics/create-a-document",
-              "path": "/docs/tutorial-basics/create-a-document",
-              "sidebar": "tutorialSidebar"
+              "id": "api-reference/README",
+              "path": "/docs/api-reference/",
+              "sidebar": "sidebar"
             },
             {
-              "id": "tutorial-basics/create-a-page",
-              "path": "/docs/tutorial-basics/create-a-page",
-              "sidebar": "tutorialSidebar"
+              "id": "motivation",
+              "path": "/docs/motivation",
+              "sidebar": "sidebar"
             },
             {
-              "id": "tutorial-basics/deploy-your-site",
-              "path": "/docs/tutorial-basics/deploy-your-site",
-              "sidebar": "tutorialSidebar"
+              "id": "README",
+              "path": "/docs/",
+              "sidebar": "sidebar"
             },
             {
-              "id": "tutorial-basics/markdown-features",
-              "path": "/docs/tutorial-basics/markdown-features",
-              "sidebar": "tutorialSidebar"
+              "id": "technical/cell-area",
+              "path": "/docs/technical/cell-area"
             },
             {
-              "id": "tutorial-extras/manage-docs-versions",
-              "path": "/docs/tutorial-extras/manage-docs-versions",
-              "sidebar": "tutorialSidebar"
+              "id": "technical/dggs",
+              "path": "/docs/technical/dggs",
+              "sidebar": "sidebar"
             },
             {
-              "id": "tutorial-extras/translate-your-site",
-              "path": "/docs/tutorial-extras/translate-your-site",
-              "sidebar": "tutorialSidebar"
+              "id": "technical/index-encoding",
+              "path": "/docs/technical/index-encoding"
             },
             {
-              "id": "/category/tutorial---basics",
-              "path": "/docs/category/tutorial---basics",
-              "sidebar": "tutorialSidebar"
+              "id": "technical/platonic-solids",
+              "path": "/docs/technical/platonic-solids",
+              "sidebar": "sidebar"
             },
             {
-              "id": "/category/tutorial---extras",
-              "path": "/docs/category/tutorial---extras",
-              "sidebar": "tutorialSidebar"
+              "id": "technical/the-pentagon-that-could",
+              "path": "/docs/technical/the-pentagon-that-could",
+              "sidebar": "sidebar"
             }
           ],
           "draftIds": [],
           "sidebars": {
-            "tutorialSidebar": {
+            "sidebar": {
               "link": {
-                "path": "/docs/intro",
-                "label": "intro"
+                "path": "/docs/",
+                "label": "README"
               }
             }
           }
