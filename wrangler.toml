@@ -1,0 +1,5 @@
+name = "vgridjs"
+compatibility_date = "2024-03-20"
+
+[site]
+bucket = "./website/build" 
