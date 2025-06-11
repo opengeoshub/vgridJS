@@ -6,5 +6,5 @@ bucket = "./website/build"
 
 [env.production]
 routes = [
-  { pattern = "gishub.vn/vgridjs", zone_name = "gishub.vn" }
+  { pattern = "gishub.vn", zone_name = "gishub.vn" }
 ] 
