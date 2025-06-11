@@ -7,14 +7,13 @@ It is a commonly known result that the regular pentagon cannot tile a 2D plane. 
 
 ## Rotational symmetry
 
-Of particular interest for the purposes of A5, is a pentagonal tiling which has a five-fold rotational symmetry. As shown in the aforementioned paper, such a tiling must have two non-adjacent angles 72° and 108°. With these fixed, all the other angles can be deduced from the fact that the sides are equilateral, as this [example](/examples/pentagon) demonstrates.
+Of particular interest for the purposes of A5, is a pentagonal tiling which has a five-fold rotational symmetry. As shown in the aforementioned paper, such a tiling must have two non-adjacent angles 72° and 108°. With these fixed, all the other angles can be deduced from the fact that the sides are equilateral, as this  demonstrates.
 
 <img src={PentagonImage} style={{width: "100%", maxWidth: "640px"}}/>
 
 ## Constructing a lattice
 
-By tiling this pentagon, a [lattice](/examples/lattice) is generated. As the size of the lattice grows the overall shape tends toward that of an isosceles triangle, with a vertex angle of 72°. By duplicating this tiling five times and rotating appropriately, a tiling is formed which has the shape of a regular pentagon. 
+By tiling this pentagon, a  is generated. As the size of the lattice grows the overall shape tends toward that of an isosceles triangle, with a vertex angle of 72°. By duplicating this tiling five times and rotating appropriately, a tiling is formed which has the shape of a regular pentagon. 
 
-The [lattice can be explored in this example](/examples/lattice).
 
 <img src={PentagonTiling} style={{width: "100%", maxWidth: "640px"}}/>

@@ -39,6 +39,6 @@ Of these four, regular triangles, squares and hexagons can be used to tile a pla
 
 ## Why so rigid?
 
-It is worth asking whether we should be restricting ourselves to regular polygons. After all, after constructing the tiling on the faces of the platonic solid, the projection will warp all the cells and thus the resulting shapes on the sphere will be anything but regular. This can be seen in the [area example](/examples/area).
+It is worth asking whether we should be restricting ourselves to regular polygons. After all, after constructing the tiling on the faces of the platonic solid, the projection will warp all the cells and thus the resulting shapes on the sphere will be anything but regular. This can be seen in the.
 
 Perhaps it would be better to try to find a [non-regular pentagon](./the-pentagon-that-could) which tiles with a minimal warping of the cells...

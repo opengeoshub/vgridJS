@@ -8,7 +8,7 @@ export default {
   "tagline": "Vgrid DGGS JS",
   "url": "https://vgrid.vn",
   "baseUrl": "/vgridjs/",
-  "onBrokenLinks": "throw",
+  "onBrokenLinks": "warn",
   "onBrokenMarkdownLinks": "warn",
   "favicon": "/images/vgrid.svg",
   "organizationName": "opengeoshub",

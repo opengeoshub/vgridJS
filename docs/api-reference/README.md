@@ -2,7 +2,6 @@
 
 The reference implementation of A5 is written in Typescript, with the following functions available.
 
-For examples on how to use the code, see the [example code on Github](https://github.com/felixpalmer/a5/tree/main/examples)
 
 ### Indexing
 
