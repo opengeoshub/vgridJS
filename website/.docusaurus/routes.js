@@ -3,112 +3,77 @@ import ComponentCreator from '@docusaurus/ComponentCreator';
 
 export default [
   {
-    path: '/__docusaurus/debug',
-    component: ComponentCreator('/__docusaurus/debug', '5ff'),
-    exact: true
-  },
-  {
-    path: '/__docusaurus/debug/config',
-    component: ComponentCreator('/__docusaurus/debug/config', '5ba'),
-    exact: true
-  },
-  {
-    path: '/__docusaurus/debug/content',
-    component: ComponentCreator('/__docusaurus/debug/content', 'a2b'),
-    exact: true
-  },
-  {
-    path: '/__docusaurus/debug/globalData',
-    component: ComponentCreator('/__docusaurus/debug/globalData', 'c3c'),
-    exact: true
-  },
-  {
-    path: '/__docusaurus/debug/metadata',
-    component: ComponentCreator('/__docusaurus/debug/metadata', '156'),
-    exact: true
-  },
-  {
-    path: '/__docusaurus/debug/registry',
-    component: ComponentCreator('/__docusaurus/debug/registry', '88c'),
-    exact: true
-  },
-  {
-    path: '/__docusaurus/debug/routes',
-    component: ComponentCreator('/__docusaurus/debug/routes', '000'),
-    exact: true
-  },
-  {
-    path: '/docs',
-    component: ComponentCreator('/docs', '0bc'),
+    path: '/vgridjs/docs',
+    component: ComponentCreator('/vgridjs/docs', 'e5d'),
     routes: [
       {
-        path: '/docs',
-        component: ComponentCreator('/docs', 'a95'),
+        path: '/vgridjs/docs',
+        component: ComponentCreator('/vgridjs/docs', '87f'),
         routes: [
           {
-            path: '/docs',
-            component: ComponentCreator('/docs', '55c'),
+            path: '/vgridjs/docs',
+            component: ComponentCreator('/vgridjs/docs', '5bc'),
             routes: [
               {
-                path: '/docs',
-                component: ComponentCreator('/docs', '3fd'),
+                path: '/vgridjs/docs',
+                component: ComponentCreator('/vgridjs/docs', '963'),
                 exact: true,
                 sidebar: "sidebar"
               },
               {
-                path: '/docs/api-reference',
-                component: ComponentCreator('/docs/api-reference', '9cc'),
+                path: '/vgridjs/docs/api-reference',
+                component: ComponentCreator('/vgridjs/docs/api-reference', '24b'),
                 exact: true,
                 sidebar: "sidebar"
               },
               {
-                path: '/docs/api-reference/hierarchy',
-                component: ComponentCreator('/docs/api-reference/hierarchy', '4d7'),
+                path: '/vgridjs/docs/api-reference/hierarchy',
+                component: ComponentCreator('/vgridjs/docs/api-reference/hierarchy', '9e3'),
                 exact: true,
                 sidebar: "sidebar"
               },
               {
-                path: '/docs/api-reference/indexing',
-                component: ComponentCreator('/docs/api-reference/indexing', 'fba'),
+                path: '/vgridjs/docs/api-reference/indexing',
+                component: ComponentCreator('/vgridjs/docs/api-reference/indexing', '2fe'),
                 exact: true,
                 sidebar: "sidebar"
               },
               {
-                path: '/docs/api-reference/miscellaneous',
-                component: ComponentCreator('/docs/api-reference/miscellaneous', 'd4c'),
+                path: '/vgridjs/docs/api-reference/miscellaneous',
+                component: ComponentCreator('/vgridjs/docs/api-reference/miscellaneous', 'fe9'),
                 exact: true
               },
               {
-                path: '/docs/motivation',
-                component: ComponentCreator('/docs/motivation', '1a1'),
+                path: '/vgridjs/docs/motivation',
+                component: ComponentCreator('/vgridjs/docs/motivation', '436'),
                 exact: true,
                 sidebar: "sidebar"
               },
               {
-                path: '/docs/technical/cell-area',
-                component: ComponentCreator('/docs/technical/cell-area', '558'),
+                path: '/vgridjs/docs/technical/cell-area',
+                component: ComponentCreator('/vgridjs/docs/technical/cell-area', 'ee9'),
                 exact: true
               },
               {
-                path: '/docs/technical/dggs',
-                component: ComponentCreator('/docs/technical/dggs', 'eab'),
+                path: '/vgridjs/docs/technical/dggs',
+                component: ComponentCreator('/vgridjs/docs/technical/dggs', '2de'),
                 exact: true,
                 sidebar: "sidebar"
               },
               {
-                path: '/docs/technical/index-encoding',
-                component: ComponentCreator('/docs/technical/index-encoding', '0bf'),
+                path: '/vgridjs/docs/technical/index-encoding',
+                component: ComponentCreator('/vgridjs/docs/technical/index-encoding', '66c'),
                 exact: true
               },
               {
-                path: '/docs/technical/platonic-solids',
-                component: ComponentCreator('/docs/technical/platonic-solids', 'f20'),
+                path: '/vgridjs/docs/technical/platonic-solids',
+                component: ComponentCreator('/vgridjs/docs/technical/platonic-solids', 'b9a'),
                 exact: true,
                 sidebar: "sidebar"
               },
               {
-                path: '/docs/technical/the-pentagon-that-could',
-                component: ComponentCreator('/docs/technical/the-pentagon-that-could', '5a4'),
+                path: '/vgridjs/docs/technical/the-pentagon-that-could',
+                component: ComponentCreator('/vgridjs/docs/technical/the-pentagon-that-could', '428'),
                 exact: true,
                 sidebar: "sidebar"
               }
@@ -119,8 +84,8 @@ export default [
     ]
   },
   {
-    path: '/',
-    component: ComponentCreator('/', '070'),
+    path: '/vgridjs/',
+    component: ComponentCreator('/vgridjs/', 'a7c'),
     exact: true
   },
   {

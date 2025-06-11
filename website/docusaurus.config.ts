@@ -11,7 +11,7 @@ const config = {
   title: 'VgridJS',
   tagline: 'Vgrid DGGS JS',
   url: 'https://vgrid.vn',
-  baseUrl: process.env.STAGING ? '/vgrid.vn/' : '/',
+  baseUrl: '/vgridjs/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: '/images/vgrid.svg',

@@ -1,109 +1,66 @@
 {
-  "/__docusaurus/debug-5ff": {
-    "__comp": "__comp---theme-debug-config-23-a-2ff",
+  "/vgridjs/docs-e5d": {
+    "__comp": "5e95c892",
     "__context": {
-      "plugin": "plugin---docusaurus-debugb-38-ad3"
+      "plugin": "aba21aa0"
     }
   },
-  "/__docusaurus/debug/config-5ba": {
-    "__comp": "__comp---theme-debug-config-23-a-2ff",
-    "__context": {
-      "plugin": "plugin---docusaurus-debugb-38-ad3"
-    }
+  "/vgridjs/docs-87f": {
+    "__comp": "a7bd4aaa",
+    "__props": "e4742e73"
   },
-  "/__docusaurus/debug/content-a2b": {
-    "__comp": "__comp---theme-debug-contentba-8-ce7",
+  "/vgridjs/docs-5bc": {
+    "__comp": "a94703ab"
+  },
+  "/vgridjs/docs-963": {
+    "__comp": "17896441",
+    "content": "608d6ba6"
+  },
+  "/vgridjs/docs/api-reference-24b": {
+    "__comp": "17896441",
+    "content": "5fa5436b"
+  },
+  "/vgridjs/docs/api-reference/hierarchy-9e3": {
+    "__comp": "17896441",
+    "content": "7701872a"
+  },
+  "/vgridjs/docs/api-reference/indexing-2fe": {
+    "__comp": "17896441",
+    "content": "e42308c5"
+  },
+  "/vgridjs/docs/api-reference/miscellaneous-fe9": {
+    "__comp": "17896441",
+    "content": "d494f6ef"
+  },
+  "/vgridjs/docs/motivation-436": {
+    "__comp": "17896441",
+    "content": "ab644ad6"
+  },
+  "/vgridjs/docs/technical/cell-area-ee9": {
+    "__comp": "17896441",
+    "content": "396a3a9c"
+  },
+  "/vgridjs/docs/technical/dggs-2de": {
+    "__comp": "17896441",
+    "content": "5a4b33c6"
+  },
+  "/vgridjs/docs/technical/index-encoding-66c": {
+    "__comp": "17896441",
+    "content": "72c103b8"
+  },
+  "/vgridjs/docs/technical/platonic-solids-b9a": {
+    "__comp": "17896441",
+    "content": "894b8b5c"
+  },
+  "/vgridjs/docs/technical/the-pentagon-that-could-428": {
+    "__comp": "17896441",
+    "content": "dcb4e770"
+  },
+  "/vgridjs/-a7c": {
+    "__comp": "9dd8a0d2",
     "__context": {
-      "plugin": "plugin---docusaurus-debugb-38-ad3"
+      "plugin": "a7456010"
     },
-    "__props": "__props---docusaurus-debug-content-3-c-0-be2"
-  },
-  "/__docusaurus/debug/globalData-c3c": {
-    "__comp": "__comp---theme-debug-global-dataede-0fa",
-    "__context": {
-      "plugin": "plugin---docusaurus-debugb-38-ad3"
-    }
-  },
-  "/__docusaurus/debug/metadata-156": {
-    "__comp": "__comp---theme-debug-site-metadata-68-e-3d4",
-    "__context": {
-      "plugin": "plugin---docusaurus-debugb-38-ad3"
-    }
-  },
-  "/__docusaurus/debug/registry-88c": {
-    "__comp": "__comp---theme-debug-registry-679-501",
-    "__context": {
-      "plugin": "plugin---docusaurus-debugb-38-ad3"
-    }
-  },
-  "/__docusaurus/debug/routes-000": {
-    "__comp": "__comp---theme-debug-routes-946-699",
-    "__context": {
-      "plugin": "plugin---docusaurus-debugb-38-ad3"
-    }
-  },
-  "/docs-0bc": {
-    "__comp": "__comp---theme-docs-root-5-e-9-0b6",
-    "__context": {
-      "plugin": "plugin---docsaba-d7c"
-    }
-  },
-  "/docs-a95": {
-    "__comp": "__comp---theme-doc-version-roota-7-b-5de",
-    "__props": "__props---docs-005-788"
-  },
-  "/docs-55c": {
-    "__comp": "__comp---theme-doc-roota-94-67a"
-  },
-  "/docs-3fd": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-608-9c3"
-  },
-  "/docs/api-reference-9cc": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-api-reference-5-fa-f4b"
-  },
-  "/docs/api-reference/hierarchy-4d7": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-api-reference-hierarchy-770-c43"
-  },
-  "/docs/api-reference/indexing-fba": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-api-reference-indexinge-42-531"
-  },
-  "/docs/api-reference/miscellaneous-d4c": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-api-reference-miscellaneousd-49-320"
-  },
-  "/docs/motivation-1a1": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-motivationab-6-413"
-  },
-  "/docs/technical/cell-area-558": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-technical-cell-area-396-9e0"
-  },
-  "/docs/technical/dggs-eab": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-technical-dggs-5-a-4-7f6"
-  },
-  "/docs/technical/index-encoding-0bf": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-technical-index-encoding-72-c-2be"
-  },
-  "/docs/technical/platonic-solids-f20": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-technical-platonic-solids-894-f8b"
-  },
-  "/docs/technical/the-pentagon-that-could-5a4": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-technical-the-pentagon-that-coulddcb-bb9"
-  },
-  "/-070": {
-    "__comp": "__comp---site-src-pages-index-jsx-9-dd-cb1",
-    "__context": {
-      "plugin": "plugin---markdown-pagea-74-7b5"
-    },
-    "config": "config---5-e-9-4f3"
+    "config": "5e9f5e1a"
   }
 }
