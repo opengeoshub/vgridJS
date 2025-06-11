@@ -11,11 +11,6 @@ test/**/*-failed.png
 tsconfig.tsbuildinfo
 
 
-TODO
-
-mapbox-gl.js
-mapbox-gl-dev.js
-
 examples/**/yarn.lock
 test/**/yarn.lock
 yarn-error.log
