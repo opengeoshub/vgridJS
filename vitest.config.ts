@@ -8,8 +8,7 @@ export default defineConfig({
   },
   resolve: {
     alias: {
-      'dggs': path.resolve(__dirname, 'dggs'),
-      'dggs/geohash': path.resolve(__dirname, 'dggs/geohash')
+      'dggs': path.resolve(__dirname, 'dggs')
     }
   }
 }) 

@@ -1,16 +1,24 @@
 import { defineConfig } from 'tsup'
 
 export default defineConfig({
-  entry: ['dggs/index.ts'],
+  entry: [
+    // 'dggs/index.ts',
+    'dggs/tilecode.ts',
+    'dggs/qtm.ts',
+    'dggs/olc.ts',
+    'dggs/mercantile.ts',
+    'dggs/maidenhead.ts',
+    'dggs/georef.ts',
+    'dggs/geohash.ts'
+  ],
   format: ['esm', 'cjs'],
   dts: true,
-  splitting: false,
+  splitting: true,
   sourcemap: true,
   clean: true,
   treeshake: true,
   external: [/^internal/],
   noExternal: ['gl-matrix'],
-  globalName: 'vgridjs',
   target: 'es2020',
   esbuildOptions(options) {
     options.supported = {
